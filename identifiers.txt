@@ -1,0 +1,9 @@
+0 alumnoA
+1 impr
+2 calif
+3 califA
+4 califB
+5 prom
+6 alumno
+7 flag
+8 i

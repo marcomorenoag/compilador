@@ -1,0 +1,36 @@
+[
+
+$$ PROGRAMA DE PRUEBA PARA ANALIZADOR LEXICO-SEMANTIC
+$$DECLARACION DE VARIABLES
+
+Cadena alumnoA,impr;
+Entero calif, califA, califB;
+Real prom;
+
+calif := 9;
+alumno := "Marco Antonio";
+
+flag:= Cierto;
+
+$$CICLO HAZ MIENTRAS
+Haz[
+	flag:=Falso;
+]Mientras(flag);
+
+$$CICLO PARA
+Para( i :=0 ; i .MN. 3 ; i := i + 1)
+[
+ 	prom := calif;
+]
+
+$$CONDICIONAL
+Si(prom .MYI. 18)
+[
+     impr := "Tu calificacion sube a 10";
+	
+]Sino[
+	impr := "NO sube calificacion :(";
+
+]
+
+]
